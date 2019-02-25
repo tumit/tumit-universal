@@ -7,5 +7,5 @@ docker build -t tumit .
 
 docker run -t --name=tumit -p 8080:8080 tumit
 
-## จากนั้นค่อย เอา Nginx ชี้ มาเป็นอันจบ
-Next step used nginx to steam at 8080 port ......
+## จากนั้นค่อย เอา Nginx upsteam มาเป็นอันจบ
+Next step used nginx to upsteam at 8080 port ......

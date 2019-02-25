@@ -10,3 +10,10 @@ docker run -t --name=tumit -p 8080:8080 tumit
 
 ## จากนั้นค่อย เอา Nginx upsteam มาเป็นอันจบ
 Next step used nginx to upsteam at 8080 port ......
+
+
+ไฟล์ที่ผมแก้มี  
+
+.dockerignore
+
+Dockerfile

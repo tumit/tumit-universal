@@ -1,0 +1,8 @@
+{
+  "universal": {
+    "project": "tumit",
+    "skipInstall": false,
+    "directory": ".",
+    "http": true
+  }
+}

@@ -7,7 +7,7 @@ ADD . .
 RUN npm install
 RUN npm run build:prod
 
-FROM node:8-slim
+FROM node:8-alpine
 ENV INSTALL_PATH=/project
 RUN mkdir ${INSTALL_PATH}
 WORKDIR ${INSTALL_PATH}
